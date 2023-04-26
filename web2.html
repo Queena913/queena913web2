@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>全民健康保險-健康存摺</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+            <header class="container">
+                <div class="mobile-block page-name-title">
+                    <span class="btn-menu">
+                        登入健康存摺
+                        <img src="https://myhealthbankapp.nhi.gov.tw/IHKE3000/images/menu-down.png" alt="">
+                    </span>
+                    <span class="btn-back"></span>
+                </div>
+            </header>
+            <form>
+                <main>
+                    <div class="login-page-wrap">
+                        <div class="banner">
+                            <img src="https://myhealthbankapp.nhi.gov.tw/IHKE3000/images/bn.png" alt="">
+                        </div>
+                        <div class="block container">
+                            <div class="row">
+                                <div class="col col-2 card-link no-click">
+                                    <div id="divtab" class="box-title">登入</div>
+                                    <div class="box-content login-box-content">
+                                        <div class="tab">
+                                            <a class="current">一般登入</a>
+                                            <a>健保卡</a>
+                                            <a>自然人憑證</a>
+                                            <a>OTP登入</a>
+                                        </div>
+                                        <div class="login-box">
+                                            <div class="form-content">
+                                                <div class="form-row">
+                                                    <div class="form-name">身分證號/居留證號</div>
+                                                    <div class="form-input-block">
+                                                        <input type="text" placeholder="請輸入" title="身分證號/居留證號" id="txtID" name="txtID" maxlength="10" class="NoEmpty">
+                                                        <input type="hidden" id="hID" tabindex="0">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-name">健保卡號</div>
+                                                    <div class="form-input-block card-number">
+                                                        <input type="text" placeholder="0000" maxlength="4" title="健保卡號" id="txtCardNo1" tabindex="0" class="NoEmpty">
+                                                        <span>-</span>
+                                                        <input type="text" placeholder="0000" maxlength="4" title="健保卡號" id="txtCardNo2" tabindex="0" class="NoEmpty">
+                                                        <span>-</span>
+                                                        <input type="text" placeholder="0000" maxlength="4" title="健保卡號" id="txtCardNo3" tabindex="0" class="NoEmpty">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-name">
+                                                         健保卡網路服務註冊密碼
+                                                        <a href="https://cloudicweb.nhi.gov.tw/cloudic/system/mUserForget.aspx?source=IHKE2" target="_blank" class="align-right btn-plum-color small-word-fix pointer">忘記密碼</a>
+                                                        <span class="align-right small-word-fix pointer" style="font-weight: bolder;">&nbsp;|&nbsp;</span>
+                                                        <a href="https://myhealthbankapp.nhi.gov.tw/IHKE3000/IHKE3116S01" class="align-right btn-plum-color small-word-fix pointer">申請密碼</a>
+                                                    </div>
+                                                    <div class="form-input-block">
+                                                        <input type="password" title="健保卡網路服務註冊密碼" placeholder="請輸入" tabindex="0" class="NoEmpty">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-name">
+                                                         圖形驗證碼
+                                                        <a class="align-right btn-plum-color small-word-fix pointer" style="padding-right: 55px;">重新產生</a>
+                                                    </div>
+                                                    <div class="form-input-block">
+                                                        <input type="text" title="圖形驗證碼" placeholder="請輸入" tabindex="0" class="NoEmpty"><img src="https://myhealthbankapp.nhi.gov.tw/api/ihke3000/IHKELOGIN/captcha?id=54689970&r=546" style="margin-left: 10px;">
+                                                        <img src="https://myhealthbankapp.nhi.gov.tw/IHKE3000/images/volume.png" alt="" style="width: 45px; vertical-align: sub; margin-left: 10px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="btn-wrap btn-align-center">
+                                                <button class="btn btn-l" onclick="alert('系統異常')">確認</button>
+                                                <button class="btn btn-l" onclick="alert('系統異常')">清除</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-2 card-link no-click">
+                                    <div class="box-title">公告事項</div>
+                                    <div class="box-content scroll">
+                                        <ul class="col-content-li">
+                                            <li>
+                                                <span>健保投保資料專區資料現已移至「個人健保資料網路服務作業」。</span>
+                                            </li>
+                                            <li>
+                                                <span>首次使用「健康存摺」且無「健保卡網路服務註冊密碼」者，請先申請密碼。</span>
+                                            </li>
+                                            <li>
+                                                <span>為提供更好操作體驗自112年3月16日起，「健康存摺」提供新的操作介面，詳細內容請參閱「使用指南」。</span>
+                                            </li>
+                                            <li>
+                                                <span>使用本網站服務，若下載個人資料至電腦，務請妥善保護個人資料！若於公用或共用電腦下載個人資料，請於檢視後，自行刪除檔案，並再至「資源回收筒」刪除檔案，以確保個人資料不外洩。</span><!----><!----><!---->
+                                            </li>
+                                            <li>
+                                                <span>本網站自104年6月30日起提供XML檔案、106年1月6日起提供Json檔案，您可於下載後再自行上傳至其他網路加值應用服務使用。</span>
+                                            </li>
+                                            <li>
+                                                <span>為防止您下載之健保資料意外洩漏，請避免安裝免費共享軟體(如：FOXY、EMULE、BT等)。</span><!----><!----><!---->
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div tabindex="0" aria-label="Loading" class="vld-overlay is-active is-full-page" style="z-index: 100000; display: none;">
+                            <div class="vld-background" style="backdrop-filter: blur(2px);"></div>
+                            <div class="vld-icon">
+                                <svg viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" width="64" height="64" stroke="#000">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <g transform="translate(1 1)" stroke-width="2">
+                                            <circle stroke-opacity=".25" cx="18" cy="18" r="18"></circle>
+                                            <path d="M36 18c0-9.94-8.06-18-18-18">
+                                                <animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="0.8s" repeatCount="indefinite"></animateTransform>
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </form>
+            <footer class="container">
+                <div class="footer-link">
+                    <a>隱私權政策</a>
+                    <a>資訊安全政策</a>
+                    <a>政府網站資料開放宣言</a>
+                </div>
+                <div class="footer-info">自 103/12/25 起，參訪累計：150,213,853 人次</div>
+            </footer>
+
+</body>
+</html>
